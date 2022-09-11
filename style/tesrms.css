@@ -1,0 +1,39 @@
+.terms{
+    background: #18356e;
+}
+
+.terms .innerContainer{
+    padding: 24px 60px 23px 94px;
+}
+
+.terms__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.terms__item{
+    display: flex;
+    align-items: center;
+}
+
+.terms__item:not(:last-child){
+    margin-right: 15px;
+}
+
+.terms__itemText{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.imgContainer{
+    margin-right: 16px;
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
