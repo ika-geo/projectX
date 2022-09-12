@@ -1,7 +1,6 @@
-
 .description {
     background: #FBFBFB;
-    padding: 63px 0 50px;
+    padding: 65px 0 50px;
 }
 
 .description .innerContainer {
@@ -16,7 +15,9 @@
 }
 
 .description__title span {
+    position: relative;
     color: #337dfd;
+    display: inline-block;
 }
 
 .description__img{
@@ -27,21 +28,17 @@
 
 
 .description__title span::before {
-    position: relative;
-    left: 10px;
-    bottom: 20px;
-    content: url('/img/descriptionArrow.png') !important;
-    width: 100px;
-    height: 100px;
+    position: absolute;
+    right: -84px;
+    bottom: -19px;
+    content: url('../img/descriptionArrow.png');
 }
 
 .description__title span::after {
-    position: relative;
-    bottom: -10px;
-    left: 10px;
-    content: url('/img/descriptionArrow.png') !important;
-    width: 100px;
-    height: 100px;
+    position: absolute;
+    bottom: -24px;
+    left: -19px;
+    content: url('../img/descriptionUnderline.png');
 }
 
 .description__text {
@@ -60,12 +57,11 @@
     padding: 17px 15px 15px;
     text-align: center;
     max-width: 686px;
-    margin-bottom: 52px;
+    margin-bottom: 50px;
 }
 
 .description__preferenceBlock{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .description__preferenceItem:not(:last-child){
@@ -74,7 +70,7 @@
 
 .description__preferenceItem{
     margin-bottom: 1px;
-    padding: 0 10px 6px;
+    padding: 0 9px 6px;
 }
 
 .description__preferenceItem img{

@@ -1,17 +1,21 @@
-
-
-
 .topHeader{
-    padding: 4px 0;
+    padding: 7px 0;
     background-color: #11346F;
     display: flex;
 }
 
 .header{
-    padding: 13px 0;
+    padding: 9px 0;
     background: rgba(245, 253, 255, 0.8);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
     backdrop-filter: blur(28px);
+}
+
+.header.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .header .innerContainer{
@@ -46,10 +50,15 @@
 
 .menu__item{
     margin: 0 30px;
-    font-weight: 600;
+
 }
 
-.menu__item.active{
+.menu__item a{
+    font-weight: 600;
+    color: #4b6693
+}
+
+.menu__item.active a{
     font-weight: 800;
 }
 

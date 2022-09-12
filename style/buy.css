@@ -1,6 +1,6 @@
 .buy{
     background: linear-gradient(118.72deg, #AECCFF -18.14%, #197AFF 165.34%);
-    padding: 15px 0 12px;
+    padding: 31px 0 24px;
     text-align: center;
 }
 
@@ -21,15 +21,17 @@
     font-size: 37px;
     line-height: 50px;
     color: #FFFFFF;
-    margin-bottom: 57px
+    margin: 0 auto 57px;
+    width: max-content;
+    width: -moz-max-content;
+
 }
 
 .buy__subTitle::after{
     position: absolute;
-    content: '';
-    bottom: -10px;
-    left: 0;
-    background-image: url("../img/buyUnderline.png");
+    content: url("../img/buyUnderline.png");
+    bottom: -21px;
+    left: 37px;
 }
 
 .buy__offer{
@@ -44,7 +46,7 @@
     background: rgba(246, 248, 252, 0.7);
     border: 1.5px solid #197AFF;
     border-radius: 18px;
-    padding: 0 10px 23px 18px;
+    padding: 0 10px 24px 18px;
     margin-bottom: 30px;
 }
 
@@ -100,8 +102,24 @@
 }
 
 .buy__item .title span{
+    position: relative;
     color: #197AFF;
 }
+
+.buy__item .title span::before{
+    position: absolute;
+    content: url("../img/pricesOldUnderline.png");
+    bottom: -10px;
+    left: 0;
+}
+
+.buy__item .title span::after{
+    position: absolute;
+    content: url("../img/buyArrow.png");
+    top: -77px;
+    right: -24px;
+}
+
 
 .buy__item .prices{
     display: flex;
@@ -123,7 +141,7 @@
 
 .buy__item .pricesOld .price{
     position: relative;
-    color: #93A2BB
+    color: #93A2BB;
 }
 
 .buy__item .pricesOld .price::before{
@@ -136,6 +154,7 @@
     left: 50%;
     transform: translate(-50%, 50%);
 }
+
 
 .buy__item .shipping{
     font-family: 'Gilroy', sans-serif;
@@ -160,7 +179,7 @@
 }
 
 .buy__item .moneyBack span{
-    font-family: 'Gilroy';
+    font-family: 'Gilroy', sans-serif;
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
@@ -201,8 +220,6 @@
     margin-bottom: 36px;
 }
 
-
-
 .save__top{
     display: flex;
     justify-content: space-between;
@@ -222,7 +239,7 @@
     font-size: 12px;
     line-height: 16px;
     color: #11346F;
-    padding: 9px 13px 8px 21px;
+    padding: 9px 13px 8px 18px;
 }
 
 .buy__item.item2 .moneyBack{

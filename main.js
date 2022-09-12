@@ -1,5 +1,3 @@
-
-
 // hide/show answers
 
 let parent = document.querySelectorAll(".faq__item")
@@ -21,5 +19,29 @@ let questionsBlockArrow = document.querySelector('.faq__showAll img')
 seeAll.addEventListener("click", function (){
     questionsBlock.classList.toggle('hiddenQuestions')
     questionsBlockArrow.classList.toggle("opened")
+})
 
+
+// fixed header
+
+// let header = document.querySelector(".header")
+//
+// window.addEventListener("scroll", function (){
+//     if (window.scrollY>50&&window.innerWidth>768){
+//         header.classList.add("fixed")
+//     }
+//     else {
+//         header.classList.remove("fixed")
+//     }
+// })
+
+
+// burgerMenu
+
+let burger = document.querySelector(".burger")
+let menu = document.querySelector('.header__menu')
+
+burger.addEventListener('click', function (){
+    burger.classList.toggle("open")
+    menu.classList.toggle('open')
 })

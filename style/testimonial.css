@@ -1,5 +1,5 @@
 .testimonial{
-    padding: 50px 102px 52px 102px;
+    padding: 50px 102px 56px 102px;
     background-color: #F6F8FC;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .person__verified span{
-    font-weight: 800;
+    font-weight: 600;
     font-size: 11px;
     line-height: 15px;
     text-align: center;
@@ -110,7 +110,7 @@
 
 .reviews__text{
     font-weight: 600;
-    font-size: 11px;
+    font-size: 13px;
     line-height: 26px;
     color: #262626;
     padding: 0 25px 12px 17px;

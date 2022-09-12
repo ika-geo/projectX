@@ -1,0 +1,490 @@
+/*header*/
+@media screen and (max-width: 1200px){
+    .header__logo {
+        margin-right: 10px;
+    }
+
+    .menu__item {
+        margin: 0 30px 10px 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .header .innerContainer {
+        padding: 0 20px;
+    }
+
+    .header__logo {
+        margin: 0 auto;
+    }
+    .header__logo img {
+        max-width: unset;
+        margin-bottom: 15px;
+    }
+
+    .header__block {
+        flex-direction: column;
+    }
+
+    .header__menu{
+        margin-bottom: 10px;
+    }
+
+    .menu__item:last-child{
+        margin-right: 0;
+    }
+
+
+}
+
+
+
+/*burgerMenu*/
+/*@media screen and (max-width: 768px){*/
+
+/*    .header__order{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .burger{*/
+/*        position: fixed;*/
+/*        top: 20px;*/
+/*        right: 50px;*/
+/*        z-index: 1000;*/
+/*    }*/
+
+/*    .burgerLine{*/
+/*        position: absolute;*/
+/*        width: 40px;*/
+/*        height: 2px;*/
+/*        background-color: darkgray;*/
+/*        transition-duration: .3s;*/
+/*    }*/
+
+/*    .burgerLine:nth-child(1){*/
+/*        top: -10px;*/
+/*    }*/
+
+/*    .burger.open .burgerLine:nth-child(1){*/
+/*        transform: rotate(45deg);*/
+/*        top: 0;*/
+/*        transition-duration: .3s;*/
+/*    }*/
+
+/*    .burgerLine:nth-child(2){*/
+/*        top: 0;*/
+/*    }*/
+
+/*    .burger.open .burgerLine:nth-child(2){*/
+/*        display: none;*/
+/*    }*/
+
+/*    .burgerLine:nth-child(3){*/
+/*        top: 10px;*/
+/*    }*/
+
+/*    .burger.open .burgerLine:nth-child(3){*/
+/*        transform: rotate(-45deg);*/
+/*        top: 0;*/
+/*        transition-duration: .3s;*/
+/*    }*/
+
+/*    .header__menu{*/
+/*        display: none;*/
+/*    }*/
+
+/*    .header__menu.open{*/
+/*        display: unset;*/
+/*        position: fixed;*/
+/*        top: 0;*/
+/*        left: 0;*/
+/*        width: 100vw;*/
+/*        height: 100vh;*/
+/*        background-color: rgba(105, 225, 255, 0.7);*/
+/*    }*/
+
+/*    .header__menuList {*/
+/*        flex-direction: column;*/
+/*        align-items: end;*/
+/*        margin-top: 50px;*/
+/*        margin-right: 10px;*/
+/*    }*/
+
+/*}*/
+
+@media screen and (max-width: 768px) {
+    .header__sale {
+        display: inline-block;
+        margin: 0 auto;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 31px;
+        color: #FFFFFF;
+    }
+}
+
+
+/*description*/
+
+@media screen and (max-width: 1200px){
+    .description__img {
+        float: unset;
+        margin: 20px auto 0;
+    }
+
+    .description__text {
+        max-width: unset;
+    }
+
+    .description__preference {
+        max-width: unset;
+    }
+
+    .description__preferenceItem{
+        width: 25%;
+    }
+
+    .description__preferenceItem:not(:last-child){
+        border-right: 1px solid #CEE2FF;
+    }
+
+    .description__price {
+        margin-bottom: 20px;
+    }
+
+    .description__testimonial {
+        float: unset;
+        margin-top: unset;
+        width: max-content;
+        width: -moz-max-content;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .description .innerContainer {
+        padding: 0 20px 0 20px;
+    }
+
+    .description {
+        padding: 20px 0 20px;
+    }
+
+    .description__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .description__title span::before {
+        content: none;
+    }
+
+    .description__title span::after {
+        content: none;
+    }
+
+
+    .description__text {
+        margin: 15px 0 15px;
+        font-size: 16px;
+    }
+
+
+    .description__preference{
+        margin-bottom: 20px;
+    }
+
+    .description__bottom{
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+
+    .description__preferenceBlock {
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .description__preferenceItem {
+        width: 50%;
+        margin-bottom: 10px;
+        border-right: none!important;
+    }
+
+    .description__testimonial{
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+
+    .description__preference{
+        max-width: 210px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .description__preferenceItem {
+        width: 100%;
+    }
+
+    .description__button {
+        padding: 15px 19px;
+        border-radius: 30px;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: unset;
+    }
+
+
+    .description__testimonial {
+        max-width: 100%;
+    }
+
+    .description__personImg {
+        width: 50px;
+        height: 50px;
+        margin-right: 9px;
+    }
+
+    .description__testimonial__text {
+        max-width: 100%;
+    }
+
+
+    .description__testimonial__name {
+        margin-right: 27px;
+    }
+}
+
+
+/*terms*/
+
+@media screen and (max-width: 1200px){
+
+    .terms .innerContainer {
+        padding: 24px 50px 23px 50px;
+    }
+
+    .imgContainer{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .terms .innerContainer {
+        padding: 24px 20px 23px 20px;
+    }
+
+    .terms__item {
+        margin-right: 0;
+    }
+
+    .terms__block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .terms__item{
+        margin-right: 0!important;
+    }
+
+    .terms__itemText{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 420px){
+    .terms .innerContainer {
+        padding: 10px;
+    }
+
+    .terms__itemText {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+/*buy*/
+
+@media screen and (max-width: 768px){
+
+    .buy .innerContainer {
+        padding: 0 30px;
+    }
+
+    .buy {
+        padding: 15px 0 15px;
+    }
+
+    .buy__subTitle {
+        font-size: 27px;
+        margin: 0 auto 35px;
+    }
+
+    .buy__subTitle::after {
+        content: '';
+    }
+
+    .buy__item {
+        min-width: unset;
+    }
+
+    .buy__item.item1 .mainImg {
+        margin-bottom: 12px;
+    }
+
+    .buy__item .save__left {
+        padding: 8px;
+    }
+
+    .buy__item .moneyBack {
+        margin: 10px 0 10px;
+    }
+
+    .buy__item .moneyBack img {
+        margin-right: 4px;
+    }
+
+    .buy__item.item1 .purpose {
+        margin-bottom: 32px;
+    }
+
+    .buy__item .getPurpose {
+        font-size: 13px;
+        padding: 15px 60px 14px 60px;
+        margin-bottom: 21px;
+    }
+
+}
+
+
+/*testimonial*/
+
+@media screen and (max-width: 1300px){
+    .reviews__items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .reviews__item {
+        margin-bottom: 20px;
+    }
+
+    .reviews__customerLeft {
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .testimonial {
+        padding: 25px 50px 25px 50px;
+    }
+
+    .testimonial__title {
+        font-size: 27px;
+        line-height: 30px;
+    }
+
+    .reviews__items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .testimonial {
+        padding: 15px 20px 15px 20px;
+    }
+
+    .reviews__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .testimonial__title {
+        font-size: 22px;
+    }
+
+    .reviews__star {
+        margin-right: 8px;
+    }
+
+    .reviews__left{
+        margin-bottom: 20px;
+        margin-right: 15px;
+    }
+
+}
+
+
+
+/*FAQ*/
+
+@media screen and (max-width: 1200px) {
+    .faq__left {
+        display: none;
+    }
+
+    .faq .innerContainer {
+        padding: 0 100px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .faq {
+        padding: 20px 0 35px;
+    }
+
+    .faq .innerContainer {
+        padding: 0 50px;
+    }
+
+    .faq__title {
+        margin-bottom: 30px;
+    }
+
+    .faq__title span::before {
+        content: none;
+    }
+
+    .faq__item {
+         width: unset;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .faq__title {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .faq__question {
+        font-size: 15px;
+        padding: 10px 60px 10px 10px;
+    }
+
+    .faq__question::after {
+        top: 10px;
+    }
+
+    .faq__answer{
+        padding: 10px;
+    }
+}
+
